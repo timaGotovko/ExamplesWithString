@@ -9,5 +9,7 @@ public class Main {
         NewReverse.Reverse(NewString);
         BackSlang NewBackSlang = new BackSlang();
         NewBackSlang.VoidBackSlang(NewString);
+        FindVowelsLetters NewFinder = new FindVowelsLetters();
+        NewFinder.Finder(NewString);
     }
 }
