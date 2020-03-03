@@ -11,5 +11,7 @@ public class Main {
         NewBackSlang.VoidBackSlang(NewString);
         FindVowelsLetters NewFinder = new FindVowelsLetters();
         NewFinder.Finder(NewString);
+        Palindrome NewPalindrome = new Palindrome();
+        NewPalindrome.FindPalindrome(NewString);
     }
 }
